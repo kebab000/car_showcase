@@ -61,6 +61,7 @@ export default function Home() {
         </div>
 
         <div className="home__filters">
+          
           <SearchBar setManufacturer={setManufacturer} setModel={setModel} />
 
           <div className="home__filter-container">
