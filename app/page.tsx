@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         <div className="home__filters">
-          
+
           <SearchBar setManufacturer={setManufacturer} setModel={setModel} />
 
           <div className="home__filter-container">
@@ -73,7 +73,6 @@ export default function Home() {
             />
           </div>
         </div>
-
         {allCars.length > 0 ? (
           <section>
             <div className="home__cars-wrapper">
