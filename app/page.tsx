@@ -8,6 +8,8 @@ import { fuels, yearsOfProduction } from "@/constants";
 import Image from "next/image";
 import { CarProps } from "@/types";
 
+
+
 export default function Home() {
   const [allCars, setAllCars] = useState<CarProps[]>([]);
   const [loading, setLoading] = useState(false);
