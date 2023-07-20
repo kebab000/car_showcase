@@ -1,35 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Cars Showcase
 
-## Getting Started
+RapidAPI의 "Cars by API-Ninjas" API에서 제공하는 자동차 카탈로그를 검색할 수 있습니다.
+제조업체, 모델, 연료 등과 같은 여러 기준에 따라 자동차를 필터링할 수 있습니다.
 
-First, run the development server:
+- 작업 기간 : 6일
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 정보
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 이 프로젝트는 Javascript Mastery 의 튜토리얼을 기반으로 합니다.
+- 새로운 앱 라우터와 서버 측 렌더링을 실험하기 위해 NextJS 애플리케이션 작업에 익숙해지기 위해 이 프로젝트를 시작했습니다.
+- Dialog, Transition 및 ComboBox와 같은 구성 요소를 통합하여 HeadlessUI 구성 요소 라이브러리를 사용하였습니다.
+- 이 프로젝트는 TailwindCS를 스타일링에 적용하고 TypeScript를 타이핑에 적용하는 데 대한 지식을 강화할 수 있는 기회를 제공했습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 사용 스택 (클라이언트)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- React 18.2.0
+- Typescript 5.1.6
+- NextJS 13.4.9
+- HeadlessUI 1.7.15
+- TailwindCSS 3.3.2
 
-## Learn More
+## 특징
 
-To learn more about Next.js, take a look at the following resources:
+- 자동차 카탈로그를 통한 브라우저
+- 특정 자동차 검색
+- 결과 필터링 (fuel, gas, electricity, 년도 등)
+- 특정 자동차에 대한 자세한 정보 읽기
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 학습
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- NextJS, Typescript 및 TailwindCSS를 사용하여 앱 설정
+- Next.js 이미지 구성 요소 사용
+- 서버와 클라이언트 구성 요소를 구분합니다. "비동기" 구성 요소 사용
+- Layout.tsx에서 메타데이터 조정
+- Transition, Combobox 및 Modal과 같은 헤드리스 UI 구성 요소 및 스타일링 통합
+- 서버 측 렌더링을 활용하기 위한 URL 매개변수 조작
 
-## Deploy on Vercel
+## 감사의 말
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# car_showcase
+- 이 프로젝트는 [Javascript Mastery](https://www.youtube.com/@javascriptmastery)의 [튜토리얼](https://www.youtube.com/watch?v=pUNSHPyVryU)을 기반으로 합니다.
