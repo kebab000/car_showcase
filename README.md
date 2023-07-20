@@ -1,8 +1,9 @@
 ## Cars Showcase
 
-RapidAPI의 "Cars by API-Ninjas" API에서 제공하는 자동차 카탈로그를 검색할 수 있습니다.
+RapidAPI의 "Cars by API-Ninjas" API에서 제공하는 자동차 카탈로그를 검색할 수 있습니다.   
 제조업체, 모델, 연료 등과 같은 여러 기준에 따라 자동차를 필터링할 수 있습니다.
 
+- Live Demo : https://kebab-car-showcase.netlify.app/
 - 작업 기간 : 6일
 
 ## 정보
