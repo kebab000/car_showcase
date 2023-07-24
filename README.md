@@ -3,6 +3,7 @@
 RapidAPI의 "Cars by API-Ninjas" API에서 제공하는 자동차 카탈로그를 검색할 수 있습니다.   
 제조업체, 모델, 연료 등과 같은 여러 기준에 따라 자동차를 필터링할 수 있습니다.
 
+<img src="https://raw.githubusercontent.com/kebab000/car_showcase/main/public/carsShowcase.png" />
 - Live Demo : https://kebab-car-showcase.netlify.app/
 - 작업 기간 : 6일
 
